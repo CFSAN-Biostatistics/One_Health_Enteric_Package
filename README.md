@@ -1,10 +1,10 @@
 # One Health Enteric Package
 
-## One Health-compatible metadata package for genomic surveillance of enteric pathogens
+## One Health-compatible metadata package for genomic surveillance of enteric microbial organisms
 
 The Genomics for Food Safety (GenFS) Metadata Workgroup is a cross-agency collaboration comprising members from the United States Department of Agriculture, Centers for Disease Control and Prevention, National Center for Biotechnology Information, and Food and Drug Administration. The primary goal of this workgroup is to expand and standardize the contextual data associated with samples collected for enteric surveillance and research in the United States, moving from a mostly free-text space to one that is machine-readable.
 
-The workgroup leveraged two existing metadata packages, the NCBI standard pathogen metadata package<sup>**1**</sup> and the draft MIxS Food Environmental Metadata Standard package<sup>**2**</sup>, to develop a new metadata package for genomic surveillance of enteric pathogens. The new One Health Enteric Package captures the full One Health sample space for enteric pathogens. The package comprises a core suite of attributes describing general sample and isolate features plus four sections covering the major One Health sample spaces:
+The workgroup leveraged two existing metadata packages, the NCBI standard microbial metadata package<sup>**1**</sup> and the draft MIxS Food Environmental Metadata Standard package<sup>**2**</sup>, to develop a new metadata package for genomic surveillance of enteric microbes. The new One Health Enteric Package captures the full One Health sample space for enteric microbes. The package comprises a core suite of attributes describing general sample and isolate features plus four sections covering the major One Health sample spaces:
 1. human/animal hosts
 2. food samples
 3. food facilities
