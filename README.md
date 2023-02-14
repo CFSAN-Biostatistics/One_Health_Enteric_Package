@@ -15,16 +15,11 @@ Each of these sections contain a set of attributes with detailed definitions, gu
 This effort resulted in a metadata package that will better meet our One Health goals by providing machine-readable contextual data, enabling more sophisticated data science analyses for investigating links between genomic data and contextual metadata, e.g. machine learning or population-adapted genome wide-association studies (GWAS) to test hypotheses around evolution of virulence, stress tolerance, antimicrobial resistance, risk assessment, and source attribution, among others.<br><br>
 
 
-**The latest versions of the One Health Enteric Package can be found under "Releases" on the panel to the right.**
+**Download the latest versions of the One Health Enteric Package or sub-packages under "Releases" on the panel to the right.**
 <br><br>
 **A generic version of the template is also available in the NCBI BioSample Submission Portal:** https://submit.ncbi.nlm.nih.gov/biosample/template/.
 <br><br>
 **Any questions, suggestions or comments should be submitted to the issue page of this repository.**
-<br><br>
-
-<sup>**1**</sup>NCBI Resource Coordinators. Database resources of the National Center for Biotechnology Information. Nucleic Acids Res. 2015. 43(Database issue):D6-17. doi: 10.1093/nar/gku1130.
-
-<sup>**2**</sup>Yilmaz _et al_. Minimum information about a marker gene sequence (MIMARKS) and minimum information about any (x) sequence (MIxS) specifications. Nat Biotechnol. 2011. 29(5):415-20. doi: 10.1038/nbt.1823.
 <br><br>
 
 
