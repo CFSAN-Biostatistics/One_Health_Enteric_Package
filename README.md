@@ -17,7 +17,7 @@ This effort resulted in a metadata package that will better meet our One Health 
 
 **The latest versions of the One Health Enteric Package can be found under Releases on the panel to the right.**
 <br><br>
-**The package is also hosted on the NCBI BioSample Submission Portal:** https://submit.ncbi.nlm.nih.gov/biosample/template/.
+**A generic version of the template is also available in the NCBI BioSample Submission Portal:** https://submit.ncbi.nlm.nih.gov/biosample/template/.
 <br><br>
 **Any questions, suggestions or comments should be submitted to the issue page of this repository.**
 <br><br>
