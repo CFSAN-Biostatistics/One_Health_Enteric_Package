@@ -15,7 +15,7 @@ Each of these sections contain a set of attributes with detailed definitions, gu
 This effort resulted in a metadata package that will better meet our One Health goals by providing machine-readable contextual data, enabling more sophisticated data science analyses for investigating links between genomic data and contextual metadata, e.g. machine learning or population-adapted genome wide-association studies (GWAS) to test hypotheses around evolution of virulence, stress tolerance, antimicrobial resistance, risk assessment, and source attribution, among others.<br><br>
 
 
-**Download the latest versions of the One Health Enteric Package or sub-packages under "Releases" on the panel to the right.**
+**Download the latest versions of the One Health Enteric Package or sub-packages under the "Releases" section of this repository (on the panel to the right).**
 <br><br>
 **A generic version of the template is also available in the NCBI BioSample Submission Portal:** https://submit.ncbi.nlm.nih.gov/biosample/template/.
 <br><br>
