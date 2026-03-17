@@ -1,30 +1,99 @@
-# One Health Enteric Package
+# One Health Enteric Metadata Package
 
-## One Health-compatible metadata package for genomic surveillance of enteric microbial organisms
+**Standardized, machine-readable metadata for genomic surveillance of enteric microbial organisms**
 
-The Genomics for Food Safety (GenFS) Metadata Workgroup is a cross-agency collaboration comprising members from the United States Department of Agriculture, Centers for Disease Control and Prevention, National Center for Biotechnology Information, and Food and Drug Administration. The primary goal of this workgroup is to expand and standardize the contextual data associated with samples collected for enteric surveillance and research in the United States, moving from a mostly free-text space to one that is machine-readable.
+---
 
-The workgroup leveraged two existing metadata packages, the NCBI standard microbial metadata package<sup>**1**</sup> and the draft MIxS Food Environmental Metadata Standard package<sup>**2**</sup>, to develop a new metadata package for genomic surveillance of enteric microbes. The new One Health Enteric Package captures the full One Health sample space for enteric microbes. The package comprises a core suite of attributes describing general sample and isolate features plus four sections covering the major One Health sample spaces:
-1. human/animal hosts
-2. food samples
-3. food facilities
-4. environmental samples (farm, water, and the environment)
+## Overview
 
-Each of these sections contain a set of attributes with detailed definitions, guidance, and requirements. Most attributes require standardized input selected from controlled vocabularies or existing ontologies. Curated picklists provide the user easy access to standard terminology for populating the package. Each collaborating agency provided example use cases that new users can follow for different sample types. 
- 
-This effort resulted in a metadata package that will better meet our One Health goals by providing machine-readable contextual data, enabling more sophisticated data science analyses for investigating links between genomic data and contextual metadata, e.g. machine learning or population-adapted genome wide-association studies (GWAS) to test hypotheses around evolution of virulence, stress tolerance, antimicrobial resistance, risk assessment, and source attribution, among others.<br><br>
+The Genomics for Food Safety (GenFS) Metadata Workgroup is a cross-agency collaboration involving the U.S. Department of Agriculture (USDA), Centers for Disease Control and Prevention (CDC), National Center for Biotechnology Information (NCBI), and Food and Drug Administration (FDA).
 
+The workgroup’s goal is to expand and standardize contextual metadata for enteric pathogen surveillance and research in the United States—transitioning from predominantly free-text data to structured, machine-readable formats that support interoperability and advanced analysis.
 
-**Download the latest versions of the One Health Enteric Package or sub-packages under the "Releases" section of this repository (on the panel to the right).**
-<br><br>
-**A generic version of the template is also available in the NCBI BioSample Submission Portal:** https://submit.ncbi.nlm.nih.gov/biosample/template/.
-<br><br>
-**Any questions, suggestions or comments should be submitted to the issue page of this repository.**
-<br><br>
+The **One Health Enteric Metadata Package** was developed by integrating and extending:
+- [NCBI Pathogen Metadata Package](https://www.ncbi.nlm.nih.gov/biosample/docs/packages/#pathogen)  
+- [MIxS Food Extensions](https://genomicsstandardsconsortium.github.io/mixs/)
 
+This package is designed to comprehensively represent the full One Health sampling space for enteric microbes.
 
+---
+
+## What’s Included
+
+The package consists of:
+
+### Core Metadata
+A set of attributes applicable across all sample types, capturing general sample and isolate information.
+
+### One Health Sub-Packages  
+(*Sub-packages are domain-specific groupings of attributes tailored to particular sample types.*)
+
+Four domain-specific sub-packages covering major sampling contexts:
+- **Human and animal hosts**  
+- **Food samples**  
+- **Food production and processing environments**  
+- **Environmental sources** (e.g., water, air, natural environments)
+
+### Standardization Features
+- Controlled vocabularies and ontology-backed terms  
+- Curated picklists for consistent data entry  
+- Defined attribute requirements and guidance  
+- Example use cases contributed by participating agencies  
+
+---
+
+## Why This Matters
+
+This package enables high-quality, structured metadata collection to support:
+
+- Pathogen surveillance relevant to Food Safety
+- Integration of genomic and contextual data  
+- Machine learning and advanced analytics    
+- Investigations of:
+  - Virulence and pathogenicity  
+  - Environmental adaptation and stress tolerance  
+  - Antimicrobial resistance  
+  - Risk assessment  
+  - Source attribution  
+
+---
+
+## Getting Started
+
+- Download the latest full package or sub-packages from the **Releases** section of this repository.  
+- Select the sub-package(s) appropriate for your sample type.  
+- Use alongside submission workflows such as NCBI BioSample.
+
+A generic submission template is also available via the NCBI BioSample Submission Portal:  
+https://submit.ncbi.nlm.nih.gov/biosample/template/
+
+---
+
+## Package Structure
+
+The metadata package is organized into:
+- A **core attribute set** shared across all samples  
+- Four **domain-specific sub-packages** aligned to One Health sample types  
+
+Each sub-package includes:
+- Attribute definitions  
+- Guidance and examples  
+- Requirement levels (e.g., required, recommended, optional)  
+
+---
+
+## Contributing and Feedback
+
+Questions, suggestions, or proposed improvements can be submitted via the **Issues** page of this repository.
+
+---
+
+## Acknowledgments
+
+This work is a collaborative effort across USDA, CDC, NCBI, and FDA, with contributions from multiple domain experts supporting One Health data standardization.
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
+## Licencing
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
 
